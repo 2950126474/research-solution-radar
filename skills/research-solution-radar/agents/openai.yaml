@@ -1,0 +1,6 @@
+interface:
+  display_name: "看看别人怎么做"
+  short_description: "查找相关领域和具体问题的已有做法，基于近期研究提出有来源的建议"
+  default_prompt: "使用 $research-solution-radar 帮我看看别人怎么解决当前问题，或者先查近期相关研究，再提出有引用来源的 idea。"
+policy:
+  allow_implicit_invocation: true
